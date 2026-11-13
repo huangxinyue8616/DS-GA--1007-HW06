@@ -1,0 +1,16 @@
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+*.py[cod]
+
+# Datasets and trained model artifacts
+datasets/
+runs/
+*.pt
+*.onnx
+*.engine
+
+# Local environment files
+.env
+.DS_Store

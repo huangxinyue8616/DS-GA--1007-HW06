@@ -1,0 +1,12 @@
+# Update `path` to the root of your dataset, or keep the default layout below.
+path: datasets/flange
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: crack
+  1: corrosion
+  2: scratch
+  3: deformation
+  4: missing_bolt
